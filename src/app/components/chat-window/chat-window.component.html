@@ -1,0 +1,13 @@
+<!-- src/app/components/chat-window/chat-window.component.html -->
+<div class="chat-window">
+  <div class="chat-messages" #messagesContainer>
+    <app-message *ngFor="let message of messages" [message]="message"></app-message>
+  </div>
+  <div class="chat-input-container">
+    <app-chat-input     [ngStyle]="{
+      'height': '60px',
+      'width':'140%'
+   
+    }" (sendMessage)="sendMessage($event)"></app-chat-input>
+  </div>
+</div>

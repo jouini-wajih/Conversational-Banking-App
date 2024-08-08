@@ -1,0 +1,26 @@
+/* src/app/components/chat-input/chat-input.component.scss */
+.chat-input {
+    display: flex;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+  
+    in {
+      flex: 1;
+      padding: 10px;
+      border: none; /* Remove the border */
+      border-radius: 4px; /* Optional: you can also adjust the border-radius if needed */
+      outline: none; /* Remove the default focus outline */
+    }
+    
+  
+    button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+  

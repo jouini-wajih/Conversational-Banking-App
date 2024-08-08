@@ -1,0 +1,9 @@
+<div class="chat-input-container" style="display: flex; align-items: center;">
+  <textarea
+    [(ngModel)]="message"
+    (keydown)="handleKeyPress($event)"
+    placeholder="Type a message..."
+    style="flex: 1; padding: 10px; border: none; border-radius: 4px; outline: none; width: 75%; resize: none; overflow-y: auto; height: 50px;"
+    rows="1"
+  ></textarea>
+</div>

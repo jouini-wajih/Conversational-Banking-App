@@ -1,0 +1,4 @@
+<!-- src/app/components/message/message.component.html -->
+<div [ngClass]="{'message-bubble': true, 'user-message': message.sender === 'user', 'bot-message': message.sender === 'bot'}">
+  {{ message.content }}
+</div>

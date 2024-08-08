@@ -1,0 +1,7 @@
+<!-- src/app/components/chat-button/chat-button.component.html -->
+<div class="chat-button" (click)="toggleChat()">
+  Chat
+</div>
+
+<!-- Chat Window -->
+<app-chat-window *ngIf="isChatOpen"></app-chat-window>
