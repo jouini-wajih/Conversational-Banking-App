@@ -32,6 +32,31 @@ Welcome to the Conversational Banking App! This project integrates a conversatio
    ```bash
    git clone https://github.com/your-username/conversational-banking-app.git
    cd conversational-banking-app
+2. **install packages and run the app:**
+
+   ```bash
+   npm i
+   ng serve
+3. **Set Up Conda Environment for Rasa:**
+
+   ```bash
+   conda create -n rasa-env python=3.8
+   conda activate rasa-env
+4. **install rasa:**
+
+   ```bash
+   pip install rasa
+5. **train rasa model:**
+
+   ```bash
+   rasa train
+6. **run rasa shell or run rasa on port 5005:**
+
+   ```bash
+   rasa shell
+   #or
+   rasa run --port 5005
+
 
 
 
