@@ -4,8 +4,8 @@
 
 Welcome to the Conversational Banking App! This project integrates a conversational Angular application with a Rasa-based chatbot. The chatbot is designed to assist users with queries related to opening an online bank account, and it uses intent-based interactions to provide accurate and relevant responses.
 
-![Conversational Banking App Demo](./path-to-your-gif/demo.gif)
-![Uploading screen-capture.gif…]()
+![Conversational Banking App Demo]([./path-to-your-gif/demo.gif](https://github.com/jouini-wajih/Conversational-Banking-App/blob/main/screen-capture.gif))
+
 
 ## Features
 
