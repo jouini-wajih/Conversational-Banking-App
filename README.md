@@ -6,7 +6,7 @@ Welcome to the Conversational Banking App! This project integrates a conversatio
 
 ![Conversational Banking App Demo](./screen-capture.gif)
 
-
+<img src="./screen-capture.gif" alt="Conversational Banking App Demo" width="400"/>
 ## Features
 
 - **Angular Frontend:** A modern and responsive web interface built with Angular.
